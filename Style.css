@@ -1,0 +1,78 @@
+body{
+    background-image: url("img/fondo2.avif");
+    background-size:cover;
+    justify-content: center;
+    display: flex;
+    margin-top: 10%;
+}
+
+#container{
+    width: 700px;
+    height: 400px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 150px;
+}
+
+#container img{
+    border-radius: 50%;
+    float: left;
+    margin-left: 30px;
+    /* position: relative;  con este puedo manuplarlo con wl left o right 
+    donde yo quiera por eso se llama position relativa
+    */
+    transform: matrix(2deg);
+}
+
+
+.loguin{
+    float: right;
+    margin-right: 15%;
+}
+
+
+
+.usser input, .password input{
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    border-bottom-style:solid;
+    border-color: black;
+    margin: 20px
+
+}
+
+button{
+    margin-top: 10%;
+    margin-left: 10%;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgba(245, 245, 220, 0);
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    transition: 2s;
+}
+button:hover {
+  transition: 2s;
+  box-shadow: 0px 0px 8px 4px rgb(7, 32, 250);
+}
+
+
+p{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 40px;
+}
+h1{
+    text-align: center;
+
+}
+
+hr{
+    width: 1px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+}
